@@ -1,0 +1,2 @@
+alert ip any any -> any any
+alert ip any any -> any anypass ip any any -> any any
