@@ -1,2 +1,13 @@
 alert ip any any -> any any
 alert ip any any -> any anypass ip any any -> any any
+drop dns any 53 -> any any(msg:'test message')whattup though[ ' d r o p ' ,   ' i p ' ,   ' a n y ' ,   ' a n y ' ,   ' - > ' ,   [ ' 1 0 . 0 . 0 . 1 0 ' ] ,   ' a n y ' ][; ';  ; (; m; s; g; :; "; d; i; d;  ; t; h; i; s;  ; w; o; r; k; "; '; ,;  ; '; s; i; d; :; 0; 0; 0; 0; 0; 1; '; ,;  ; '; r; e; v; :; 0; 0; 1; '; ])[ ' d r o p ' ,   ' i p ' ,   ' a n y ' ,   ' a n y ' ,   ' - > ' ,   [ ' 1 0 . 0 . 0 . 1 0 ' ] ,   ' a n y ' ] (msg:"did this work"; sid:000001; rev:001)[ ' d r o p ' ,   ' i p ' ,   ' a n y ' ,   ' a n y ' ,   ' - > ' ,   [ ' 1 0 . 0 . 0 . 1 0 ' ] ,   ' a n y ' ] (msg:"did this work"; sid:000001; rev:001)[ ' d r o p ' ,   ' i p ' ,   ' a n y ' ,   ' a n y ' ,   ' - > ' ,   [ ' 1 0 . 0 . 0 . 1 0 ' ] ,   ' a n y ' ] (msg:"did this work"; sid:000001; rev:001)drop ip any any -> any any (msg:"did this work"; sid:000001; rev:001)drop ip ['10.0.0.10'] ['80'] -> ['10.0.0.10'] ['80'] (msg:"did this work"; sid:000001; rev:001)drop ip 10.0.0.10 80 -> ['10.0.0.10'] ['80'] (msg:"did this work"; sid:000001; rev:001)drop ip 10.0.0.10 80 -> ['10.0.0.10'] ['80'] (msg:"did this work"; sid:000001; rev:001)
+drop ip 10.0.0.10 80 -> ['10.0.0.10'] ['80'] (msg:"did this work"; sid:000001; rev:001)
+drop ip 10.0.0.10 80 -> ['10.0.0.10'] ['80'] (msg:"did this work"; sid:000001; rev:001)
+drop ip 10.0.0.10 80 -> ['10.0.0.10'] ['80'] (msg:"did this work"; sid:000001; rev:001)
+drop ip 10.0.0.10 80 -> ['10.0.0.10'] ['80'] (msg:"did this work"; sid:000001; rev:001)
+drop ip 10.0.0.10 80 -> 10.0.0.10 80 (msg:"did this work"; sid:000001; rev:001)
+drop ip 10.0.0.10 80 -> 10.0.0.10 80 (msg:"did this work"; sid:000001; rev:001)
+drop ip 10.0.0.10 80 -> 10.0.0.10 80 (msg:"did this work"; sid:000001; rev:001)
+drop ip 10.0.0.10 80 -> 10.0.0.10 80 (msg:"did this work"; sid:000001; rev:001)
+drop ip 10.0.0.10 80 -> 10.0.0.10 80 (msg:"did this work"; sid:000001; rev:001)
+drop ip 10.0.0.10 80 -> 10.0.0.10 80 (msg:"did this work"; sid:000001; rev:001)

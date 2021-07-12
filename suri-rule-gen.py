@@ -7,6 +7,7 @@
 
 import argparse
 import logging
+import os
 
 logging.basicConfig(filename='suri-rule-gen.log', filemode='w', format='%(asctime)s-%(levelname)s-%(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
@@ -39,64 +40,64 @@ parser.add_argument('--dest-port', action="store", type=str, help="Use to set th
 
 args = parser.parse_args
 new_rule_header_list = []
-def validate_action():
-        if args.action is not None:
-            if args.action.lower() in action_options:
-                action = args.action.lower()
-                return action
-            else:
-                print("Invalid Action Option Entered.\n valid options include:\n" + str(action_options))
+
+while True:
+    if args.action is not None:
+        if args.action.lower() in action_options:
+            action = args.action.lower()
+            break
         else:
-            print('No arugment action entered: using alert')
-def validate_protocol(protocol):
-    while True:
-        if args.protocol is not None:
-            protocol = args.protocol.lower()
-            return protocol
-        else:
-            print("Didn't enter a protocol")
-def validate_source_ip():
+            print("Invalid Action Option Entered.\n valid options include:\n" + str(action_options))
+            break
+    else:
+        print('No arugment action entered: using alert')
+        break
+while True:
+    if args.protocol is not None:
+        protocol = args.protocol.lower()
+        break
+    else:
+        print("Didn't enter a protocol")
+        break
+while True:
     if args.source is not None:
         source_ip = args.source
-        return source_ip
+        break
     else:
         print("No Source IP entered: using any")
-def validate_source_port():
+        break
+while True:
     if args.sourceport is not None:
         source_port = args.sourceport
-        return source_port
+        break
     else:
         print('No Source Port entered: using any')
-def validate_direction():
+        break
+"""while True:
     if args.direction is not None:
         if args.direction in direction_options:
             direction = args.direction
-            return direction
+            break
         else:
             print("The direction you selected was not valid.\n valid options include: " + str())
+            break
     else:
         print('No direction was entered: using ->')
-def validate_dest_ip():
+        break"""
+while True:
     if args.dest is not None:
         dest_ip = args.dest
-        return dest_ip
+        break
     else:
         print('No destination IP was entered. using: any')
-def validate_dest_port():
+        break
+while True: 
     if args.dest_port is not None:
         dest_port = args.dest_port
-        return dest_port
+        break
     else:
         print('No destination port specified: uisng any')
-
-
-validate_action()
-validate_protocol()
-validate_source_ip()
-validate_source_port()
-validate_direction()
-validate_dest_ip()
-validate_dest_port()
+        break
 
 new_rule_header_list = [ action, protocol, source_ip, source_port, direction, dest_ip, dest_port]
 #new_rule_header = action + " " + source_ip + " " + source_port + " " +  direction + " " + dest_ip + " " + dest_port
@@ -105,3 +106,9 @@ new_rule_header = " ".join(new_rule_header_list)
 #new_rule = new_rule_header + " " + new_rule_options
 print(new_rule_header)
 
+if os.path.exists(outfile):
+    f = open(outfile, "a")
+    f.write(new_rule_header)
+else:
+    f = open(outfile, "x")
+    f.writelines("%s\n" % new_rule_header)

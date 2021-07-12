@@ -32,17 +32,43 @@ direction_options =  ['->','<>']
 parser = argparse.ArgumentParser()
 
 #argparse values
-parser.add_argument('--action', action="store", type=str, help="Use to set rule action - Default is alert")
-parser.add_argument('--protocol', action="store", type=str, help="Use to set rule protocol.")
-parser.add_argument('--source', action="store", type=str, help="Use to set source IP for rule. Format examples:\n10.0.0.0\n10.0.0.0/8\n!10.0.0.0\n[10.0.0.0, 192.168.0.0/24, !172.16.0.0]")
-parser.add_argument('--sourceport', action="store", type=str, help="Use to set the source port. Format exampels:\n80\n[80,81,82]\n[8080:]\n!80\n[1:80,![2,4]]")
-parser.add_argument('--direction', action='store', type=str, help="Use to se the direction of the rule valid options inclde: " + str(direction_options))
-parser.add_argument('--dest', action="store", type=str, help="Use to set destination IP for rule. Format examples:\n10.0.0.0\n10.0.0.0/8\n!10.0.0.0\n[10.0.0.0, 192.168.0.0/24, !172.16.0.0]")
-parser.add_argument('--destport', action="store", type=str, help="Use to set the source port. Format exampels:\n80\n[80,81,82]\n[8080:]\n!80\n[1:80,![2,4]]")
+parser.add_argument('--action', action="store", type=str, required=False, help="Use to set rule action - Default is alert")
+parser.add_argument('--protocol', action="store", type=str, required=False, help="Use to set rule protocol.")
+parser.add_argument('--source', action="store", type=str, required=False, help="Use to set source IP for rule. Format examples:\n10.0.0.0\n10.0.0.0/8\n!10.0.0.0\n[10.0.0.0, 192.168.0.0/24, !172.16.0.0]")
+parser.add_argument('--sourceport', action="store", type=str, required=False,  help="Use to set the source port. Format exampels:\n80\n[80,81,82]\n[8080:]\n!80\n[1:80,![2,4]]")
+parser.add_argument('--direction', action='store', type=str, required=False,  help="Use to se the direction of the rule valid options inclde: " + str(direction_options))
+parser.add_argument('--dest', action="store", type=str, required=False,  help="Use to set destination IP for rule. Format examples:\n10.0.0.0\n10.0.0.0/8\n!10.0.0.0\n[10.0.0.0, 192.168.0.0/24, !172.16.0.0]")
+parser.add_argument('--destport', action="store", type=str, required=False,      help="Use to set the source port. Format exampels:\n80\n[80,81,82]\n[8080:]\n!80\n[1:80,![2,4]]")
 
 args = parser.parse_args()
 
-#Header input validation 
+
+
+
+while True: 
+    if args.action is not None:
+        if action.lower().strip() in action_options:
+            action = args.action.lower().strip()
+            break
+        else:
+            print('invalid action selection valid actions are:\n' + str(action_options))
+            break
+    else:
+        print('No action was included: using alert')
+        break
+while True:
+    if args.protocol is not None:
+        if protocol.lower().strip() in proto_options:
+            protocol = args.protocol.lower().strip()
+        else:
+            print('Invalid protocol selected, valid options include:\n' + str(proto_options))
+            break
+    else:
+        print('no protocol selected, using ip')
+        break
+while True:
+    if args.
+"""#Header input validation 
 if args.action is not None:
     if args.action.lower().strip() in action_options:
         action = args.action
@@ -73,6 +99,9 @@ if args.destport is not None:
     dest_port = args.destport
 else:
     print('No Destionation Port included: using any')
+"""
+
+
 
 print(args.action)
 print(args.protocol)
