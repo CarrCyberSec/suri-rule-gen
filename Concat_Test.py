@@ -23,17 +23,16 @@ sid='sid:000001'
 
 #logging configuration 
 logging.basicConfig(filename='suri-rule-gen.log', filemode='w', format='%(asctime)s-%(levelname)s-%(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-
+#Regular Expressions for input validation 
 ip_pattern = re.compile("^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$|^[\!]\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$|^\$HOME_NET|^\$EXTERNAL_NET|^\[|any|^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\/\d{1,3}$|^\$EXT_NET")
 port_pattern =  re.compile("^\d{1,6}|^\[\d{1,6}|^any|^!d{1,6}|^!\d{1,6}")
-#These validation lists work
+# Lists for Input Validation 
 action_options = ['alert', 'pass', 'drop', 'reject', 'rejectsrc', 'rejectdst', 'rejectboth']
 proto_options = ['tcp', 'udp', 'icmp', 'ip', 'http', 'ftp', 'tls', 'smb', 'dns', 'dcerpc', 
                 'ssh', 'smtp', 'imap', 'modbus', 'dnp3', 'enip', 'nfs', 'ike', 'krb5', 'ntp'
                 'dhcp', 'rfb', 'rdp', 'snmp', 'tftp', 'sip', 'http2']
-#Remove, no need for <>
 direction_options =  ['->','<>']
-
+# CLI arguments 
 parser =argparse.ArgumentParser()
 parser.add_argument('--action', action="store", type=str, help="Use to set rule action - Default is alert")
 parser.add_argument('--protocol', action="store", type=str, help="Use to set protocol.")
@@ -49,7 +48,7 @@ parser.add_argument('--meta', action="store", type=str, help="")
 parser.add_argument('--rev', action="store", type=str, help="Use to specify Revision Number")
 parser.add_argument('--sid', action="store", type=str, help="Use to specify Signature Identification.")
 parser.add_argument('--content', action="store", type=str, help="Used to specificy payload content.")
-parser.add_argument('--classtype', action="store,")
+parser.add_argument('--classtype', action="store")
 #turn cli args into arg.<argument>
 args = parser.parse_args()
 
