@@ -43,12 +43,16 @@ parser.add_argument('--dip', action="store", type=str, nargs='+', help="Use to s
 parser.add_argument('--destport', action="store", type=str, nargs='+', help="Use to set the destination port. Format exampels: 80 | [80,81,82] | [8080:] | !80 | [1:80,![2,4]]")
 parser.add_argument('--message', action="store", type=str, nargs='+', help="Use to set a descriptive message about the rule.")
 parser.add_argument('--meta', action="store", type=str, help="")
-#parser.add_argument('--ttl', action="store", type=str, help="")
+parser.add_argument('--ttl', action="store", type=str, help="Use to set TTL value. Format: number")
 #parser.add_argument('--outfile', action="store", type=str, help="")
 parser.add_argument('--rev', action="store", type=str, help="Use to specify Revision Number")
 parser.add_argument('--sid', action="store", type=str, help="Use to specify Signature Identification.")
 parser.add_argument('--content', action="store", type=str, help="Used to specificy payload content.")
-parser.add_argument('--classtype', action="store")
+parser.add_argument('--classtype', action="store", type=str, help="Used to set classtype")
+parser.add_argument('--url-ref', action="store", type=str, help="Used to set URL reference. Format: format.com")
+parser.add_argument('--cve-ref', action="store", type=str, help="Use to set CVE reference. Format: CVE-2021-1234")
+parser.add_argument('--priority', action="store", type=str, help="Use to set the rule priorty. Format: 1")
+
 #turn cli args into arg.<argument>
 args = parser.parse_args()
 
@@ -56,12 +60,15 @@ while True:
     if args.action is not None: 
         if args.action.lower() in action_options:
             rule_action = args.action.lower()
+            logging.info('Generated rule with sid:' + sid +'Rule action set: ' + rule_action)
             break
         else: 
             print("invalid selection")
+            logging.error('Generated rule with sid:' + sid + ' invalid action entered: ' + args.action)
             break
     else:
-        print('no action selected')
+        #print('no action selected')
+        logging.info('Generated rule with sid:' + sid +' no alert value entered.')
         break
 while True:
     if args.protocol is not None:
