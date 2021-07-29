@@ -1,0 +1,11 @@
+Notes:
+
+Goal 1
+    Finish long code
+
+Goal 2
+    look into object orientation and classes
+    how can i return a value from another module
+
+from suri_rules import suri_rule_functions
+
