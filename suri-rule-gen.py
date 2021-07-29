@@ -53,8 +53,8 @@ parser.add_argument('--rev', action="store", type=str, help="Use to specify Revi
 parser.add_argument('--sid', action="store", type=str, help="Use to specify Signature Identification.")
 parser.add_argument('--content', action="store", type=str, nargs='+', help="Used to specificy payload content.")
 parser.add_argument('--classtype', action="store", type=str, help="Used to set classtype")
-parser.add_argument('--url-ref', action="store", type=str, help="Used to set URL reference. Format: format.com")
-parser.add_argument('--cve-ref', action="store", type=str, help="Use to set CVE reference. Format: CVE-2021-1234")
+parser.add_argument('--urlref', action="store", type=str, help="Used to set URL reference. Format: format.com")
+parser.add_argument('--cveref', action="store", type=str, help="Use to set CVE reference. Format: CVE-2021-1234")
 parser.add_argument('--priority', action="store", type=str, help="Use to set the rule priorty. Format: 1")
 
 #turn cli args into arg.<argument>
@@ -212,7 +212,29 @@ while True:
         break
     else:
         break
-    
+while True:
+    if args.urlref is not None:
+        ref = 'reference: url, ' + args.urlref
+        list_of_vars_in_options.insert(1, ref)
+        logging.log(1, 'Generated rule sid:' + sid + 'refernce set to: ' + ref)
+        break
+    else:
+        break
+while True:
+    if args.cveref is not None: 
+        ref = 'reference: cve, ' + args.cveref
+        list_of_vars_in_options.insert(1, ref)
+        break
+    else:
+        break
+while True: 
+    if args.priority is not None: 
+        priority = 'priority:'+args.priority
+        list_of_vars_in_options.insert(1, priority)
+        logging.log(1, 'Generated rule sid:'+ sid + 'priority set to: ' + priority)
+        break
+    else:
+        break
 #Test if a different outfile should be used
 while True:
     if args.outfile is not None:
