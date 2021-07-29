@@ -21,6 +21,8 @@ message= "!!!Describe The Rule Here!!!"
 rev='rev:001'
 sid='sid:000001'
 
+list_of_vars_in_header = [ rule_action, protocol, source_ip, source_port, direction, dest_ip, dest_port] 
+list_of_vars_in_options = [rev,sid]
 
 #logging configuration 
 logging.basicConfig(filename='suri-rule-gen.log', filemode='a+', format='%(asctime)s-%(levelname)s-%(message)s', datefmt='%Y-%m-%d %H:%M:%S')
@@ -49,7 +51,7 @@ parser.add_argument('--ttl', action="store", type=str, help="Use to set TTL valu
 parser.add_argument('--outfile', action="store", type=str, help="used to specify a file to use instead of suri-rule-gen.rules. MUST END IN .rules" )
 parser.add_argument('--rev', action="store", type=str, help="Use to specify Revision Number")
 parser.add_argument('--sid', action="store", type=str, help="Use to specify Signature Identification.")
-parser.add_argument('--content', action="store", type=str, help="Used to specificy payload content.")
+parser.add_argument('--content', action="store", type=str, nargs='+', help="Used to specificy payload content.")
 parser.add_argument('--classtype', action="store", type=str, help="Used to set classtype")
 parser.add_argument('--url-ref', action="store", type=str, help="Used to set URL reference. Format: format.com")
 parser.add_argument('--cve-ref', action="store", type=str, help="Use to set CVE reference. Format: CVE-2021-1234")
@@ -57,7 +59,7 @@ parser.add_argument('--priority', action="store", type=str, help="Use to set the
 
 #turn cli args into arg.<argument>
 args = parser.parse_args()
-
+#While loops to test the presence of CLI arguements
 while True: 
     if args.action is not None: 
         if args.action.lower() in action_options:
@@ -147,14 +149,17 @@ while True:
         test_dest_port = ' '.join(args.destport)
         if port_pattern.match(test_dest_port):
             dest_port = test_dest_port
+            logging.info('Generated rule sid:' + sid + 'dest port set to:' + dest_port)
             break
         else:
+            logging.error(logging.info('Generated rule sid:' + sid + 'dest port entered incorrectly: ' + dest_port))
             print('Destionation port entered incorrectly.')
         break
     else:
         print('no dest port specified')
+        logging.info('Generated rule sid:' + sid + 'no dest port specified specified.')
         break
-#to accept arg parse with a space, items need to be accepted as a list and then joined with ' ' to look like how they were entered
+#Rule options start here
 while True:
     if args.message is not None: 
         message = " ".join(args.message)
@@ -164,63 +169,66 @@ while True:
         break
 while True: 
     if args.sid is not None: 
-        sid = args.sid
+        sid = 'sid:'+args.sid
         break
     else: 
         break
 while True: 
     if args.rev is not None:
-        rev = args.rev
+        rev = 'rev:'+args.rev
         break
     else:
         break
 while True:
     if args.meta is not None: 
         meta_var_constructor = " ".join(args.meta)
-        meta_var = 'metadata; ' + meta_var_constructor + ';'
+        meta_var = 'metadata: ' + meta_var_constructor 
         logging.info('Generated rule sid:' + sid + ' meta var set to: ' + meta_var )
+        list_of_vars_in_options.insert(1, meta_var)
         break
     else:
         break
 while True: 
     if args.ttl is not None:
-        ttl = args.ttl
-        logging.info() 
-        break
-    else:
-        break
-while True:
-    if args.outfile is not None:
-        outfile =  args.outfile
-        logging.info()
+        ttl = 'ttl:' + args.ttl 
+        list_of_vars_in_options.insert(1, ttl)  
         break
     else:
         break
 while True:
     if args.content is not None:
         content_constructor = ' '.join(args.content)
-        content = content_constructor
-        logging.info()
+        content = 'content;' + content_constructor 
+        list_of_vars_in_options.insert(1, content)
+        logging.info('Generated rule sid: ' + sid + 'content set to: ' + content)
         break
     else:
         break
 while True:
     if args.classtype is not None:
-        classtype = args.classtype
-
+        classtype = 'classtype:'+args.classtype
+        list_of_vars_in_options.insert(1, classtype)
+        logging.log(1,'Generated rule sid:'+ sid + 'classtype set to:' + classtype)
+        break
+    else:
+        break
+    
+#Test if a different outfile should be used
+while True:
+    if args.outfile is not None:
+        outfile =  args.outfile
+        logging.info('Generated rule sid:' + sid + 'outfile set to: ' + outfile)
+        break
     else:
         break
 #CONSTRUCTING THE RULE 
 #message prefix should be present in all rules. 
 message_constructor = ' (msg:"' + message + '"'
-list_of_vars_in_header = [ rule_action, protocol, source_ip, source_port, direction, dest_ip, dest_port] 
-list_of_vars_in_options = [message_constructor,rev,sid]
-
-
+list_of_vars_in_options.insert(0,message_constructor)
 new_rule_header = ' '.join(list_of_vars_in_header)
-new_rule_options = '; '.join(list_of_rule_options) + ')'
+new_rule_options = '; '.join(list_of_vars_in_options) + ';)'
 new_rule = new_rule_header+new_rule_options
-
+print(new_rule)
 
 #Check if file exists and create or write to it
 if os.path.exists(outfile):

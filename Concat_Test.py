@@ -207,7 +207,7 @@ while True:
 while True:
     if args.classtype is not None:
         classtype = args.classtype
-
+        
     else:
         break
 #CONSTRUCTING THE RULE 
@@ -218,7 +218,7 @@ list_of_vars_in_options = [message_constructor,rev,sid]
 
 
 new_rule_header = ' '.join(list_of_vars_in_header)
-new_rule_options = '; '.join(list_of_rule_options) + ')'
+new_rule_options = '; '.join(list_of_vars_in_options) + ')'
 new_rule = new_rule_header+new_rule_options
 
 
