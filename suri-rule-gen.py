@@ -21,7 +21,7 @@ message= "!!!Describe The Rule Here!!!"
 rev='rev:001'
 sid='sid:000001'
 
-list_of_vars_in_header = [ rule_action, protocol, source_ip, source_port, direction, dest_ip, dest_port] 
+
 list_of_vars_in_options = [rev,sid]
 
 #logging configuration 
@@ -245,6 +245,7 @@ while True:
         break
 #CONSTRUCTING THE RULE 
 #message prefix should be present in all rules. 
+list_of_vars_in_header = [ rule_action, protocol, source_ip, source_port, direction, dest_ip, dest_port] 
 message_constructor = ' (msg:"' + message + '"'
 list_of_vars_in_options.insert(0,message_constructor)
 new_rule_header = ' '.join(list_of_vars_in_header)
