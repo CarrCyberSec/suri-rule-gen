@@ -25,3 +25,150 @@
 2021-08-07 18:36:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001no rule driection specified.
 2021-08-07 18:36:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001no dest port specified specified.
 2021-08-07 18:36:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001ja3 value set to: ja3.hash; content:"didthiswork"
+2021-08-10 20:52:S - suri-rule-gen.py - DEBUG - debug message
+2021-08-10 20:52:S - suri-rule-gen.py - INFO - info message
+2021-08-10 20:52:S - suri-rule-gen.py - WARNING - warn message
+2021-08-10 20:52:S - suri-rule-gen.py - ERROR - error message
+2021-08-10 20:52:S - suri-rule-gen.py - CRITICAL - critical message
+2021-08-10 20:55:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001 no alert value entered.
+2021-08-10 20:55:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001 no protocol value entered.
+2021-08-10 20:55:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001no value source port value entered.
+2021-08-10 20:55:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001no rule driection specified.
+2021-08-10 20:55:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001no dest port specified specified.
+2021-08-10 20:55:S - suri-rule-gen.py - INFO - Generated rule sid: sid:000001content set to: content;this is some content
+2021-08-10 20:55:S - suri-rule-gen.py - INFO -  Generated rule sid:sid:000001ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 20:56:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001 no alert value entered.
+2021-08-10 20:56:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001 no protocol value entered.
+2021-08-10 20:56:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001no value source port value entered.
+2021-08-10 20:56:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001no rule driection specified.
+2021-08-10 20:56:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001no dest port specified specified.
+2021-08-10 20:56:S - suri-rule-gen.py - INFO - Generated rule sid: sid:000001content set to: content:this is some content
+2021-08-10 20:56:S - suri-rule-gen.py - INFO -  Generated rule sid:sid:000001ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 20:58:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001 no alert value entered.
+2021-08-10 20:58:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001 no protocol value entered.
+2021-08-10 20:58:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001no value source port value entered.
+2021-08-10 20:58:S - suri-rule-gen.py - INFO - Generated rule sidsid:000001no rule driection specified.
+2021-08-10 20:58:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001no dest port specified specified.
+2021-08-10 20:58:S - suri-rule-gen.py - INFO - Generated rule sid: sid:000001content set to: content:this is some content
+2021-08-10 20:58:S - suri-rule-gen.py - INFO -  Generated rule sid:sid:000001ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001 no alert value entered.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001 no protocol value entered.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001no value source port value entered.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001no rule driection specified.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001no dest port specified specified.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001content set to: content:this is some content
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001 no alert value entered.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001 no protocol value entered.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001no value source port value entered.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001no rule driection specified.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001no dest port specified specified.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001content set to: content:this is some content
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001 no alert value entered.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001 no protocol value entered.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001no value source port value entered.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001no rule driection specified.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001no dest port specified specified.
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001content set to: content:this is some content
+2021-08-10 21:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001rev:001ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001no dest port specified specified.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001no dest port specified specified.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001no dest port specified specified.
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:02:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:04:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no alert value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
+2021-08-10 21:05:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"

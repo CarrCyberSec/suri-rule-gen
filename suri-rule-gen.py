@@ -41,12 +41,12 @@ logger.addHandler(ch)
 logger.addHandler(fh)
 
 # 'application' code
-logger.debug('debug message')
+'''logger.debug('debug message')
 logger.info('info message')
 logger.warning('warn message')
 logger.error('error message')
-logger.critical('critical message')
-generated_rule_sid = 'Generated rule sid' + sid
+logger.critical('critical message')'''
+generated_rule_sid = 'Generated rule sid ' + sid + ' ' + rev + ' - '
 #Regular Expressions for input validation 
 ip_pattern = re.compile("^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$|^[\!]\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$|^\$HOME_NET|^\$EXTERNAL_NET|^\[|any|^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\/\d{1,3}$|^\$EXT_NET")
 port_pattern =  re.compile("^\d{1,6}|^\[\d{1,6}|^any|^!d{1,6}|^!\d{1,6}")
@@ -78,7 +78,7 @@ parser.add_argument('--cveref', action="store", type=str, help="Use to set CVE r
 parser.add_argument('--priority', action="store", type=str, help="Use to set the rule priorty. Format: 1")
 parser.add_argument('--ja3', action="store", type=str, help="Use to set JA3 hash value, JA3 strings require md5 hashing.")
 parser.add_argument('--ja3s', action="store", type=str, help="Use to set JA3S hash value, JA3S strings require md5 hashing.")
-
+logger.info('**********NEW RULE BEING GENERATED**************')
 #turn cli args into arg.<argument>
 args = parser.parse_args()
 #While loops to test the presence of CLI arguements
@@ -119,7 +119,7 @@ while True:
         else:
             logger.error('Invalid Source IP entered: ' + test_source_ip)
             print('!!!!!Invalid Source IP entered!!!!!')
-            logger.error('Genereated rule sid:' + sid + ' invalid source IP entered: ' )
+            logger.error(generated_rule_sid+ ' invalid source IP entered: ' )
             break
     else:
         print('no Source IP specified with --sip')
@@ -129,42 +129,44 @@ while True:
         test_source_port  = ' '.join(args.srcport)
         if port_pattern.match(test_source_port):
             source_port = test_source_port
-            logger.info('Generated rule sid:' + sid + ' source port value:' + source_port)
+            logger.info(generated_rule_sid + ' source port value:' + source_port)
             break
         else:
             print("The port was not entered in the correct format.")
-            logger.error('Generated rule sid:' + sid + ' invalid source port entered')
+            logger.error(generated_rule_sid+ ' invalid source port entered')
             break
     else: 
         print('no Source port was specified with --srcport')
-        logger.info('Generated rule sid:' + sid + 'no value source port value entered.')
+        logger.info(generated_rule_sid + 'no value source port value entered.')
         break
 while True: 
     if args.direction is not None: 
         if args.direction in direction_options:
             direction = args.direction
-            logger.info('Gerented rule sid;')
+            logger.info(generated_rule_sid + 'direction set to:' + args.direction)
             break
         else: 
             print('invalid direction selected: please use \n \<\> or \-\> when using a bash terminal')
-            logger.error('Generated rulue sid:' + sid + ' invalid rule direction ' + args.direction )
+            logger.error(generated_rule_sid + ' invalid rule direction ' + args.direction )
             break
     else: 
         print('no direction specified.')
-        logger.info('Generated rule sid:' + sid + 'no rule driection specified.')
+        logger.info(generated_rule_sid + 'no rule driection specified.')
         break
 while True: 
     if args.dip is not None: 
         test_dest_ip = ' '.join(args.dip)
         if port_pattern.match(test_dest_ip):
             dest_ip = test_dest_ip
-            logger.info('Generated rule sid:' + sid + '')
+            logger.info(generated_rule_sid + 'dest ip set to: ' + dest_ip)
             break
         else:
             print('The destination IP was not in the correct format.')
+            logging.error(generated_rule_sid + 'destination IP set to invalid value: '  + test_dest_ip)
             break
     else: 
         print('No Dest IP specified.')
+        logging.info(generated_rule_sid+ 'No dest ip specified, using any. ')
         break
 while True: 
     if args.destport is not None: 
@@ -179,7 +181,7 @@ while True:
         break
     else:
         print('no dest port specified')
-        logger.info('Generated rule sid:' + sid + 'no dest port specified specified.')
+        logger.info(generated_rule_sid + 'no dest port specified specified.')
         break
 #Rule options start here
 while True:
@@ -205,71 +207,71 @@ while True:
     if args.meta is not None: 
         meta_var_constructor = " ".join(args.meta)
         meta_var = 'metadata: ' + meta_var_constructor 
-        logger.info('Generated rule sid:' + sid + ' meta var set to: ' + meta_var )
-        list_of_vars_in_options.insert(1, meta_var)
+        logger.info(generated_rule_sid + ' meta var set to: ' + meta_var )
+        list_of_vars_in_options.insert(0, meta_var)
         break
     else:
         break
 while True: 
     if args.ttl is not None:
         ttl = 'ttl:' + args.ttl 
-        list_of_vars_in_options.insert(1, ttl)  
+        list_of_vars_in_options.insert(0, ttl)  
         break
     else:
         break
 while True:
     if args.content is not None:
         content_constructor = ' '.join(args.content)
-        content = 'content;' + content_constructor 
-        list_of_vars_in_options.insert(1, content)
-        logger.info('Generated rule sid: ' + sid + 'content set to: ' + content)
+        content = 'content:' + content_constructor 
+        list_of_vars_in_options.insert(0, content)
+        logger.info(generated_rule_sid+ 'content set to: ' + content)
         break
     else:
         break
 while True:
     if args.classtype is not None:
         classtype = 'classtype:'+args.classtype
-        list_of_vars_in_options.insert(1, classtype)
-        logger.info('Generated rule sid:'+ sid + 'classtype set to:' + classtype)
+        list_of_vars_in_options.insert(0, classtype)
+        logger.info(generated_rule_sid + 'classtype set to:' + classtype)
         break
     else:
         break
 while True:
     if args.urlref is not None:
         ref = 'reference: url, ' + args.urlref
-        list_of_vars_in_options.insert(1, ref)
-        logger.info(' Generated rule sid:' + sid + 'refernce set to: ' + ref)
+        list_of_vars_in_options.insert(0, ref)
+        logger.info(generated_rule_sid + 'refernce set to: ' + ref)
         break
     else:
         break
 while True:
     if args.cveref is not None: 
         ref = 'reference: cve, ' + args.cveref
-        list_of_vars_in_options.insert(1, ref)
+        list_of_vars_in_options.insert(0, ref)
         break
     else:
         break
 while True: 
     if args.priority is not None: 
         priority = 'priority:'+args.priority
-        list_of_vars_in_options.insert(1, priority)
-        logger.info(' Generated rule sid:'+ sid + 'priority set to: ' + priority)
+        list_of_vars_in_options.insert(0, priority)
+        logger.info(generated_rule_sid + 'priority set to: ' + priority)
         break
     else:
         break
 while True: 
     if args.ja3 is not None: 
         ja3 = 'ja3.hash; content:"' + args.ja3 + '"'
-        list_of_vars_in_options.insert(1, ja3)
-        logger.info(' Generated rule sid:' + sid + 'ja3 value set to: ' + ja3)
+        list_of_vars_in_options.insert(0, ja3)
+        logger.info(generated_rule_sid + 'ja3 value set to: ' + ja3)
         break
     else:
         break
 while True: 
     if args.ja3s is not None:
         ja3s = 'ja3s.hash; content:"' + args.ja3s + '"'
-        list_of_vars_in_options.insert(1, ja3s)
-        logger.info(' Generated rule sid:' + sid + 'ja3s value set to: ' + ja3s)
+        list_of_vars_in_options.insert(0, ja3s)
+        logger.info(generated_rule_sid + 'ja3s value set to: ' + ja3s)
         break
     else:
         break
@@ -277,7 +279,7 @@ while True:
 while True:
     if args.outfile is not None:
         outfile =  args.outfile
-        logger.info(' Generated rule sid:' + sid + 'outfile set to: ' + outfile)
+        logger.info(generated_rule_sid + sid + 'outfile set to: ' + outfile)
         break
     else:
         break
