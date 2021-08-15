@@ -112,3 +112,5 @@ alert ip any any -> any any (msg:"trying some new tests"; ja3.hash; content:"123
 alert ip any any -> any any (msg:"trying some new tests"; ja3.hash; content:"12312312432424"; content:this is some content; ttl:32; rev:001; sid:000001;)
 alert ip any any -> any any (msg:"trying some new tests"; ja3.hash; content:"12312312432424"; content:this is some content; ttl:32; rev:001; sid:000001;)
 alert ip any any -> any any (msg:"trying some new tests"; ja3.hash; content:"12312312432424"; content:this is some content; ttl:32; rev:001; sid:000001;)
+alert ip any any -> any any (msg:"trying some new tests"; ja3.hash; content:"12312312432424"; content:this is some content; ttl:32; rev:001; sid:000001;)
+alert ip any any -> any any (msg:"trying some new tests"; ja3.hash; content:"12312312432424"; content:this is some content; ttl:32; rev:001; sid:000001;)

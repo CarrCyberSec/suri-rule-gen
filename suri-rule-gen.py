@@ -1,9 +1,22 @@
 #!/usr/bin/env python3 
+#   Automating Steps of Suricata Rule-Writing
+#   by
+#   Brian T. Carr
+#   A Capstone Submitted to the Faculty of
+#   Utica College
+#   August 2021
+#   in Partial Fulfillment of the Requirements for the Degree of
+#   Master of Science in Cybersecurity
+#
+#   email:  brian@briantcarr.com
+#   website:    briancarr.org
+
 
 import os
 import argparse
 import re
 import logging
+
 
 #output file
 outfile = 'suri-rule-gen.rules'
@@ -20,10 +33,11 @@ message= "!!!Describe The Rule Here!!!"
 rev='rev:001'
 sid='sid:000001'
 
+
 list_of_vars_in_options = [rev,sid]
 
-#logging configuration 
 
+#logging configuration 
 logger = logging.getLogger('suri-rule-gen.py')
 logger.setLevel(logging.DEBUG)
 # create file handler which logs even debug messages
@@ -39,6 +53,7 @@ fh.setFormatter(formatter)
 # add the handlers to logger
 logger.addHandler(ch)
 logger.addHandler(fh)
+
 
 # 'application' code
 '''logger.debug('debug message')
@@ -57,6 +72,8 @@ proto_options = ['tcp', 'udp', 'icmp', 'ip', 'http', 'ftp', 'tls', 'smb', 'dns',
                 'dhcp', 'rfb', 'rdp', 'snmp', 'tftp', 'sip', 'http2']
 direction_options =  ['->','<>']
 # CLI arguments 
+
+
 parser =argparse.ArgumentParser()
 parser.add_argument('--action', action="store", type=str, help="Use to set rule action - Default is alert")
 parser.add_argument('--protocol', action="store", type=str, help="Use to set protocol.")
@@ -81,20 +98,22 @@ parser.add_argument('--ja3s', action="store", type=str, help="Use to set JA3S ha
 logger.info('**********NEW RULE BEING GENERATED**************')
 #turn cli args into arg.<argument>
 args = parser.parse_args()
+
+
 #While loops to test the presence of CLI arguements
 while True: 
     if args.action is not None: 
         if args.action.lower() in action_options:
             rule_action = args.action.lower()
-            logger.info('Generated rule with sid:' + sid +'Rule action set: ' + rule_action)
+            logger.info(generated_rule_sid +' Rule action set: ' + rule_action)
             break
         else: 
             print("invalid selection")
-            logger.error(generated_rule_sid + ' invalid action entered: ' + args.action)
+            logger.error(generated_rule_sid + ' Invalid action entered: ' + args.action)
             break
     else:
         #print('no action selected')
-        logger.info(generated_rule_sid+' no alert value entered.')
+        logger.info(generated_rule_sid+' No action value entered.')
         break
 while True:
     if args.protocol is not None:
@@ -104,7 +123,7 @@ while True:
             break
         else:
             print('invalid protocol selected valid protocol\n' + str(proto_options))
-            logger.error(generated_rule_sid + ' invalid protocol entered: ' + args.protcol )
+            logger.error(generated_rule_sid + ' invalid protocol value entered: ' + args.protcol )
             break
     else:
         print('no protocol selected')
@@ -187,21 +206,24 @@ while True:
 while True:
     if args.message is not None: 
         message = " ".join(args.message)
+        logger.info(generated_rule_sid + 'Message value set: ' + message)
         break
     else:
-        print("warning: no message specified. Please use --message to specify the rule message")
+        logger.warning(generated_rule_sid + ' No message value set!')
         break
 while True: 
     if args.sid is not None: 
         sid = 'sid:'+args.sid
         break
     else: 
+        logger.warning(generated_rule_sid + 'No sid value set!!! Please ensure that no rules have duplicate sid values.')
         break
 while True: 
     if args.rev is not None:
         rev = 'rev:'+args.rev
         break
     else:
+        logger.warning(generated_rule_sid + 'No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.')
         break
 while True:
     if args.meta is not None: 
@@ -215,7 +237,8 @@ while True:
 while True: 
     if args.ttl is not None:
         ttl = 'ttl:' + args.ttl 
-        list_of_vars_in_options.insert(0, ttl)  
+        list_of_vars_in_options.insert(0, ttl)
+        logger.info(generated_rule_sid + ' ttl value set: ' + ttl) 
         break
     else:
         break
@@ -284,8 +307,8 @@ while True:
     else:
         break
 
-#CONSTRUCTING THE RULE 
-#message prefix should be present in all rules. 
+
+#   Constructing the final rule string 
 list_of_vars_in_header = [ rule_action, protocol, source_ip, source_port, direction, dest_ip, dest_port] 
 message_constructor = ' (msg:"' + message + '"'
 list_of_vars_in_options.insert(0,message_constructor)
@@ -294,7 +317,7 @@ new_rule_options = '; '.join(list_of_vars_in_options) + ';)'
 new_rule = new_rule_header+new_rule_options
 print(new_rule)
 
-#Check if outfile exists and create or write to it
+#   Check if outfile exists and create or write to it
 if os.path.exists(outfile):
     f = open(outfile, "a")
     f.write(new_rule + '\n')
