@@ -196,3 +196,56 @@
 2021-08-11 08:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:32
 2021-08-11 08:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - content set to: content:this is some content
 2021-08-11 08:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"12312312432424"
+2021-08-14 22:27:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-14 22:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-14 22:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-14 22:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Rule protocol set: dns
+2021-08-14 22:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-14 22:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-14 22:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-14 22:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is a test of suri-rule-gen.py
+2021-08-14 22:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-14 22:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-14 22:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"60895aa7e50dc3aaad8a49ea62f5ebc1"
+2021-08-14 22:40:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-14 22:40:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-14 22:40:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Rule protocol set: dns
+2021-08-14 22:40:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-14 22:40:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-14 22:40:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-14 22:40:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is a test of suri-rule-gen.py
+2021-08-14 22:40:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-14 22:40:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-14 22:40:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"60895aa7e50dc3aaad8a49ea62f5ebc1"
+2021-08-14 22:42:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-14 22:42:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-14 22:42:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Rule protocol set: dns
+2021-08-14 22:42:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-14 22:42:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-14 22:42:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-14 22:42:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is a test of suri-rule-gen.py
+2021-08-14 22:42:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-14 22:42:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-14 22:42:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"60895aa7e50dc3aaad8a49ea62f5ebc1"
+2021-08-14 22:50:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-14 22:50:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-14 22:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-14 22:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Rule protocol set: dns
+2021-08-14 22:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-14 22:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-14 22:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-14 22:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is a test of suri-rule-gen.py
+2021-08-14 22:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-14 22:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-14 22:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"60895aa7e50dc3aaad8a49ea62f5ebc1"
+2021-08-14 22:52:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-14 22:52:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-14 22:52:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Rule protocol set: dns
+2021-08-14 22:52:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-14 22:52:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-14 22:52:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-14 22:52:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is a test of suri-rule-gen.py
+2021-08-14 22:52:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-14 22:52:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-14 22:52:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"60895aa7e50dc3aaad8a49ea62f5ebc1"
+2021-08-14 22:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************

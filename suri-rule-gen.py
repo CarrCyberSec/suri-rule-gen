@@ -71,6 +71,8 @@ proto_options = ['tcp', 'udp', 'icmp', 'ip', 'http', 'ftp', 'tls', 'smb', 'dns',
                 'ssh', 'smtp', 'imap', 'modbus', 'dnp3', 'enip', 'nfs', 'ike', 'krb5', 'ntp'
                 'dhcp', 'rfb', 'rdp', 'snmp', 'tftp', 'sip', 'http2']
 direction_options =  ['->','<>']
+target_options = ['src_ip', 'dest_ip']
+ipopts_options = ['rr', 'eol', 'nop', 'ts', 'sec', 'esec', 'lsrr', 'ssrr', 'satid', 'any']
 # CLI arguments 
 
 
@@ -85,16 +87,19 @@ parser.add_argument('--destport', action="store", type=str, nargs='+', help="Use
 parser.add_argument('--message', action="store", type=str, nargs='+', help="Use to set a descriptive message about the rule.")
 parser.add_argument('--meta', action="store", nargs='+', type=str, help="Used to set metadata variables. Be careful with formatting. sample format: --meta key value  | --meta key value, key value")
 parser.add_argument('--ttl', action="store", type=str, help="Use to set TTL value. Format: number")
-parser.add_argument('--outfile', action="store", type=str, help="used to specify a file to use instead of suri-rule-gen.rules. MUST END IN .rules" )
-parser.add_argument('--rev', action="store", type=str, help="Use to specify Revision Number")
+parser.add_argument('--outfile', action="store", type=str, help="used to specify a file to use instead of suri-rule-gen.rules. MUST END IN .rules." )
+parser.add_argument('--rev', action="store", type=str, help="Use to specify Revision Number.")
 parser.add_argument('--sid', action="store", type=str, help="Use to specify Signature Identification.")
 parser.add_argument('--content', action="store", type=str, nargs='+', help="Used to specificy payload content.")
-parser.add_argument('--classtype', action="store", type=str, help="Used to set classtype")
+parser.add_argument('--classtype', action="store", type=str, help="Use to set classtype.")
+parser.add_argument('--gid', action="store", type=str, help="Use to set group ID.")
 parser.add_argument('--urlref', action="store", type=str, help="Used to set URL reference. Format: format.com")
 parser.add_argument('--cveref', action="store", type=str, help="Use to set CVE reference. Format: CVE-2021-1234")
 parser.add_argument('--priority', action="store", type=str, help="Use to set the rule priorty. Format: 1")
 parser.add_argument('--ja3', action="store", type=str, help="Use to set JA3 hash value, JA3 strings require md5 hashing.")
 parser.add_argument('--ja3s', action="store", type=str, help="Use to set JA3S hash value, JA3S strings require md5 hashing.")
+parser.add_argument('--target', action="store", type=str, help="Use to set rule target.")
+parser.add_argument ('--ipopts', action="store", type=str, help="Use to set IP Option.")
 logger.info('**********NEW RULE BEING GENERATED**************')
 #turn cli args into arg.<argument>
 args = parser.parse_args()
@@ -126,7 +131,7 @@ while True:
             logger.error(generated_rule_sid + ' invalid protocol value entered: ' + args.protcol )
             break
     else:
-        print('no protocol selected')
+       # print('no protocol selected')
         logger.info(generated_rule_sid + ' no protocol value entered.') 
         break
 while True: 
@@ -141,7 +146,7 @@ while True:
             logger.error(generated_rule_sid+ ' invalid source IP entered: ' )
             break
     else:
-        print('no Source IP specified with --sip')
+        #print('no Source IP specified with --sip')
         break
 while True: 
     if args.srcport is not None:
@@ -155,7 +160,7 @@ while True:
             logger.error(generated_rule_sid+ ' invalid source port entered')
             break
     else: 
-        print('no Source port was specified with --srcport')
+       # print('no Source port was specified with --srcport')
         logger.info(generated_rule_sid + 'no value source port value entered.')
         break
 while True: 
@@ -175,7 +180,7 @@ while True:
 while True: 
     if args.dip is not None: 
         test_dest_ip = ' '.join(args.dip)
-        if port_pattern.match(test_dest_ip):
+        if ip_pattern.match(test_dest_ip):
             dest_ip = test_dest_ip
             logger.info(generated_rule_sid + 'dest ip set to: ' + dest_ip)
             break
@@ -184,7 +189,7 @@ while True:
             logging.error(generated_rule_sid + 'destination IP set to invalid value: '  + test_dest_ip)
             break
     else: 
-        print('No Dest IP specified.')
+        #print('No Dest IP specified.')
         logging.info(generated_rule_sid+ 'No dest ip specified, using any. ')
         break
 while True: 
@@ -199,7 +204,7 @@ while True:
             print('Destionation port entered incorrectly.')
         break
     else:
-        print('no dest port specified')
+        #print('no dest port specified')
         logger.info(generated_rule_sid + 'no dest port specified specified.')
         break
 #Rule options start here
@@ -247,7 +252,7 @@ while True:
         content_constructor = ' '.join(args.content)
         content = 'content:' + content_constructor 
         list_of_vars_in_options.insert(0, content)
-        logger.info(generated_rule_sid+ 'content set to: ' + content)
+        logger.info(generated_rule_sid+ ' content set to: ' + content)
         break
     else:
         break
@@ -255,7 +260,7 @@ while True:
     if args.classtype is not None:
         classtype = 'classtype:'+args.classtype
         list_of_vars_in_options.insert(0, classtype)
-        logger.info(generated_rule_sid + 'classtype set to:' + classtype)
+        logger.info(generated_rule_sid + ' classtype set to:' + classtype)
         break
     else:
         break
@@ -263,7 +268,7 @@ while True:
     if args.urlref is not None:
         ref = 'reference: url, ' + args.urlref
         list_of_vars_in_options.insert(0, ref)
-        logger.info(generated_rule_sid + 'refernce set to: ' + ref)
+        logger.info(generated_rule_sid + ' refernce set to: ' + ref)
         break
     else:
         break
@@ -271,6 +276,7 @@ while True:
     if args.cveref is not None: 
         ref = 'reference: cve, ' + args.cveref
         list_of_vars_in_options.insert(0, ref)
+        logger.info(generated_rule_sid + 'CVE referenced: ' + ref)
         break
     else:
         break
