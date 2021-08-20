@@ -56,11 +56,7 @@ logger.addHandler(fh)
 
 
 # 'application' code
-'''logger.debug('debug message')
-logger.info('info message')
-logger.warning('warn message')
-logger.error('error message')
-logger.critical('critical message')'''
+
 generated_rule_sid = 'Generated rule sid ' + sid + ' ' + rev + ' - '
 #Regular Expressions for input validation 
 ip_pattern = re.compile("^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$|^[\!]\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$|^\$HOME_NET|^\$EXTERNAL_NET|^\[|any|^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\/\d{1,3}$|^\$EXT_NET")
@@ -185,7 +181,6 @@ while True:
             logger.error(generated_rule_sid + ' invalid rule direction ' + args.direction )
             break
     else: 
-        print('no direction specified.')
         logger.info(generated_rule_sid + 'no rule driection specified.')
         break
 while True: 
@@ -230,6 +225,7 @@ while True:
 while True: 
     if args.sid is not None: 
         sid = 'sid:'+args.sid
+        list_of_vars_in_options[-2]=sid
         break
     else: 
         logger.warning(generated_rule_sid + 'No sid value set!!! Please ensure that no rules have duplicate sid values.')
@@ -237,6 +233,7 @@ while True:
 while True: 
     if args.rev is not None:
         rev = 'rev:'+args.rev
+        list_of_vars_in_options[-1]=rev
         break
     else:
         logger.warning(generated_rule_sid + 'No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.')
@@ -317,7 +314,7 @@ while True:
         break
 while True:
     if args.target is not None:
-        if args.target is 'src_ip' or 'dest_ip':
+        if args.target == 'src_ip' or 'dest_ip':
             target = 'target:' + args.target.lower()
             list_of_vars_in_options.insert(0, target)
             break
@@ -375,7 +372,7 @@ while True:
 while True:
     if args.outfile is not None:
         outfile =  args.outfile
-        logger.info(generated_rule_sid + sid + 'outfile set to: ' + outfile)
+        logger.info(generated_rule_sid + 'outfile set to: ' + outfile)
         break
     else:
         break

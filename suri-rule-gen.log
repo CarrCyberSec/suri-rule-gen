@@ -263,3 +263,1202 @@
 2021-08-19 23:34:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
 2021-08-19 23:34:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - CVE referenced: reference: cve, CVE-10001
 2021-08-19 23:34:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"testingtestingtesting"
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:29:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:29:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:29:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:29:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:29:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:29:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:29:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:29:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:29:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 08:29:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:29:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:30:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:30:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:30:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:30:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:30:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:30:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:30:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:30:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:30:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 08:30:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:30:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:32:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:32:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:32:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:32:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:32:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:32:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:32:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:32:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:32:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 08:32:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:32:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:33:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:33:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:33:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:33:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:33:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:33:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:33:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:33:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:33:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 08:33:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:33:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No sid value set!!! Please ensure that no rules have duplicate sid values.
+2021-08-20 08:37:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:37:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:38:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:38:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:38:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:38:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:38:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:39:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:39:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:44:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:45:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:45:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:45:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:45:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:45:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:45:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.19
+2021-08-20 08:45:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:45:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: did this work
+2021-08-20 08:45:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - CVE referenced: reference: cve, CVE-10001
+2021-08-20 08:45:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"testingtestingtesting"
+2021-08-20 08:46:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:46:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:46:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:46:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:46:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:46:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.19
+2021-08-20 08:46:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:46:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: did this work
+2021-08-20 08:46:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - CVE referenced: reference: cve, CVE-10001
+2021-08-20 08:46:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"testingtestingtesting"
+2021-08-20 08:50:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.19
+2021-08-20 08:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:50:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: did this work
+2021-08-20 08:51:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:51:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:51:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:51:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:51:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:51:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.19
+2021-08-20 08:51:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:51:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: did this work
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.19
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: did this work
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - CVE referenced: reference: cve, CVE-10001
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"testingtestingtesting"
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.19
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: did this work
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - CVE referenced: reference: cve, CVE-10001
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"testingtestingtesting"
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.19
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: did this work
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - CVE referenced: reference: cve, CVE-10001
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"testingtestingtesting"
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:53:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:53:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:53:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:53:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:53:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:54:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:54:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:54:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:54:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:54:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the third test
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"651682e68c00b76e5279aac3918b887f"
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:54:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:54:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:54:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 08:54:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  source port value:445
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:56:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the third test
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"651682e68c00b76e5279aac3918b887f"
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:80
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:56:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:56:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:56:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 08:56:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  source port value:445
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:57:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the third test
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"651682e68c00b76e5279aac3918b887f"
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:80
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:57:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:57:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:57:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  source port value:445
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:57:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the third test
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"651682e68c00b76e5279aac3918b887f"
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:80
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:57:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:57:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:57:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 08:57:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  source port value:445
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 08:58:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the third test
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"651682e68c00b76e5279aac3918b887f"
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:80
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 08:58:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 08:58:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 08:58:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 08:58:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  source port value:445
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 09:01:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the third test
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"651682e68c00b76e5279aac3918b887f"
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:80
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 09:01:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 09:01:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 09:01:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 09:01:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  source port value:445
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 09:03:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 127.0.0.0
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the third test
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"651682e68c00b76e5279aac3918b887f"
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:80
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 09:03:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 09:03:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 09:03:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  source port value:445
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:445
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 09:03:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 127.0.0.0
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the third test
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"651682e68c00b76e5279aac3918b887f"
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:80
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 09:03:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:433
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 09:03:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 09:03:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 09:03:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  source port value:445
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:445
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 09:06:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 127.0.0.0
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the third test
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"651682e68c00b76e5279aac3918b887f"
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:80
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 09:06:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 09:06:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  Rule action set: drop
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  source port value:445
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:445
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the first test
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:64
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 10.0.0.0/8
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the second test
+2021-08-20 09:06:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - dest ip set to: 127.0.0.0
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the third test
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3 value set to: ja3.hash; content:"651682e68c00b76e5279aac3918b887f"
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:80
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: This is the fourth rule test
+2021-08-20 09:06:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - ja3s value set to: ja3s.hash; content:"1fafbc9531a0ce4cd026ace5121b4982"
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid:sid:000001dest port set to:433
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the fifth rule test
+2021-08-20 09:06:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  refernce set to: reference: url, briancarr.org
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the sixth rule test
+2021-08-20 09:06:S - suri-rule-gen.py - WARNING - Generated rule sid sid:000001 rev:001 - No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  ttl value set: ttl:255
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  No action value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  no protocol value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no value source port value entered.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no rule driection specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - no dest port specified specified.
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 - Message value set: this is the seventh rule test
+2021-08-20 09:06:S - suri-rule-gen.py - INFO - Generated rule sid sid:000001 rev:001 -  classtype set to:classtype:trojan-activity
