@@ -1,18 +1,18 @@
-# suri-rule-gen
-Suricata Rule Generation Scripts
 
+███████╗██╗   ██╗██████╗ ██╗      ██████╗ ██╗   ██╗██╗     ███████╗     ██████╗ ███████╗███╗   ██╗
+██╔════╝██║   ██║██╔══██╗██║      ██╔══██╗██║   ██║██║     ██╔════╝    ██╔════╝ ██╔════╝████╗  ██║
+███████╗██║   ██║██████╔╝██║█████╗██████╔╝██║   ██║██║     █████╗█████╗██║  ███╗█████╗  ██╔██╗ ██║
+╚════██║██║   ██║██╔══██╗██║╚════╝██╔══██╗██║   ██║██║     ██╔══╝╚════╝██║   ██║██╔══╝  ██║╚██╗██║
+███████║╚██████╔╝██║  ██║██║      ██║  ██║╚██████╔╝███████╗███████╗    ╚██████╔╝███████╗██║ ╚████║
+╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝      ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝     ╚═════╝ ╚══════╝╚═╝  ╚═══╝
+                                                                                                  
+by: Brian T. Carr
 
-notes
+website:	briancarr.org
+email:		brian@briantcarr.com
+GitHub: 	https://github.com/carrcybersec/suri-rule-gen
 
-#!/usr/bin/env python3
+suri-rule-gen is a command-line interface tool that assists users in developing Suricata rules. 
 
-import os.path
-outfile = 'suri-rule-gen.rules'
-
-if os.path.exists(outfile):
-    f = open(outfile, "a")
-    f.write('test123')
-else:
-    f = open(outfile, "x")
-    f.write('oh well')
-
+Background:
+This project was developed as a Thesis Capstone project for Utica College. 

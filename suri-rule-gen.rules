@@ -1,1 +1,2 @@
 alert dns any any -> any any (msg:"This is a test of suri-rule-gen.py"; ja3.hash; content:"60895aa7e50dc3aaad8a49ea62f5ebc1"; classtype:trojan-activity; ttl:64; rev:001; sid:000001;)
+alert ip $HOME_NET any -> 10.0.0.19 any (msg:"wewerwerwr"; ja3s.hash; content:"testingtestingtesting"; reference: cve, CVE-10001; rev:001; sid:000001;)

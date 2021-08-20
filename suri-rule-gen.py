@@ -99,7 +99,18 @@ parser.add_argument('--priority', action="store", type=str, help="Use to set the
 parser.add_argument('--ja3', action="store", type=str, help="Use to set JA3 hash value, JA3 strings require md5 hashing.")
 parser.add_argument('--ja3s', action="store", type=str, help="Use to set JA3S hash value, JA3S strings require md5 hashing.")
 parser.add_argument('--target', action="store", type=str, help="Use to set rule target.")
-parser.add_argument ('--ipopts', action="store", type=str, help="Use to set IP Option.")
+parser.add_argument('--ipopts', action="store", type=str, help="Use to set IP Option.")
+parser.add_argument('--geoip', action="store", type=str, help="used to set Geo IP value.")
+parser.add_argument('--fragbits', action="store", type=str, help="Use to set fragbit values")
+parser.add_argument('--fragoffset', action="store", type=str, help="Use to set fragoffset values")
+parser.add_argument('--tos', action="store", type=str, help="use to set IP header TOS value.")
+parser.add_argument('--seq', action="store", type=str, help="Use to set TCP sequence number.")
+parser.add_argument('--tlssubject', action="store", type=str, help="use to tls cert subject")
+parser.add_argument('--tlsissuer', action="store", type=str, help="Use to set tls issuer value")
+parser.add_argument('--tlsserial', action="store", type=str, help='Use to set tls serial number')
+parser.add_argument('--tlsfingerprint', action="store", type=str, help="use to set tls cert SHA1 fingerprint")
+parser.add_argument('--pcre', action="store", nargs='+', type=str, help="use to set a Perl Compatible Regular Expresion value.")
+
 logger.info('**********NEW RULE BEING GENERATED**************')
 #turn cli args into arg.<argument>
 args = parser.parse_args()
@@ -301,6 +312,62 @@ while True:
         ja3s = 'ja3s.hash; content:"' + args.ja3s + '"'
         list_of_vars_in_options.insert(0, ja3s)
         logger.info(generated_rule_sid + 'ja3s value set to: ' + ja3s)
+        break
+    else:
+        break
+while True:
+    if args.target is not None:
+        if args.target is 'src_ip' or 'dest_ip':
+            target = 'target:' + args.target.lower()
+            list_of_vars_in_options.insert(0, target)
+            break
+        else:
+            logger.error(generated_rule_sid + 'Invalid target value entered:' + args.target)
+            break
+    else:
+        break
+while True:
+    if args.ipopts is not None:
+        if args.iptops.lower in ipopts_options:
+            ipopts = 'ipopts: ' + args.ipopts.lower()
+            list_of_vars_in_options.insert(0, ipopts)
+            break
+        else:
+            logger.error(generated_rule_sid + 'Invalid ipopts value entered: ' + args.iptops)
+            break
+    break
+while True: 
+    if args.geoip is not None:
+        geoip = args.geoip.lower()
+        list_of_vars_in_options.insert(0, geoip)
+        break
+    else:
+        break
+while True:
+    if args.fragbits is not None:
+        fragbits = args.fragbits.lower()
+        break
+    else:
+        break
+while True:
+    if args.fragoffset is not None:
+        fragoffset = args.fragoffset.lower()
+        break
+    else:
+        break
+while True:
+    if args.tos is not None: 
+        tos = args.tos
+    else:
+        break
+while True:
+    if args.seq is not None:
+        seq = args.seq
+    else:
+        break
+while True:
+    if args.pcre is not None: 
+        pcre = " ".join(args.pcre)
         break
     else:
         break
