@@ -57,7 +57,7 @@ logger.addHandler(fh)
 
 # 'application' code
 
-generated_rule_sid = 'Generated rule sid ' + sid + ' ' + rev + ' - '
+
 #Regular Expressions for input validation 
 ip_pattern = re.compile("^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$|^[\!]\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$|^\$HOME_NET|^\$EXTERNAL_NET|^\[|any|^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\/\d{1,3}$|^\$EXT_NET")
 port_pattern =  re.compile("^\d{1,6}|^\[\d{1,6}|^any|^!d{1,6}|^!\d{1,6}")
@@ -106,12 +106,35 @@ parser.add_argument('--tlsissuer', action="store", type=str, help="Use to set tl
 parser.add_argument('--tlsserial', action="store", type=str, help='Use to set tls serial number')
 parser.add_argument('--tlsfingerprint', action="store", type=str, help="use to set tls cert SHA1 fingerprint")
 parser.add_argument('--pcre', action="store", nargs='+', type=str, help="use to set a Perl Compatible Regular Expresion value.")
-
+parser.add_argument('--sshproto', action="store", type=str, help="use to set ssh protocol version")
+parser.add_argument('--sshsoftware', action="store", type=str, help="use to set ssh software value")
+parser.add_argument('--hassh', action="store", type=str, help="use to set hassh value for client")
+parser.add_argument('--hasshstring', action="store", type=str, help="use to set hassh string value for client")
+parser.add_argument('--hasshserver', action="store", type=str, help="use to set hassh value for server")
+parser.add_argument('--hasshserverstring', action="store", type=str, help="use to set hassh string value for server")
 logger.info('**********NEW RULE BEING GENERATED**************')
 #turn cli args into arg.<argument>
 args = parser.parse_args()
 
 
+#   Set rule sid and rev value, set first to populate log properly. 
+while True: 
+    if args.sid is not None: 
+        sid = 'sid:'+args.sid
+        list_of_vars_in_options[-2]=sid
+        break
+    else: 
+        logger.warning('No sid value set!!! Please ensure that no rules have duplicate sid values.')
+        break
+while True: 
+    if args.rev is not None:
+        rev = 'rev:'+args.rev
+        list_of_vars_in_options[-1]=rev
+        break
+    else:
+        logger.warning('No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.')
+        break
+generated_rule_sid = 'Generated rule sid ' + sid + ' ' + rev + ' - '
 #While loops to test the presence of CLI arguements
 while True: 
     if args.action is not None: 
@@ -222,22 +245,7 @@ while True:
     else:
         logger.warning(generated_rule_sid + ' No message value set!')
         break
-while True: 
-    if args.sid is not None: 
-        sid = 'sid:'+args.sid
-        list_of_vars_in_options[-2]=sid
-        break
-    else: 
-        logger.warning(generated_rule_sid + 'No sid value set!!! Please ensure that no rules have duplicate sid values.')
-        break
-while True: 
-    if args.rev is not None:
-        rev = 'rev:'+args.rev
-        list_of_vars_in_options[-1]=rev
-        break
-    else:
-        logger.warning(generated_rule_sid + 'No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.')
-        break
+
 while True:
     if args.meta is not None: 
         meta_var_constructor = " ".join(args.meta)
@@ -325,12 +333,12 @@ while True:
         break
 while True:
     if args.ipopts is not None:
-        if args.iptops.lower in ipopts_options:
+        if args.ipopts.lower in ipopts_options:
             ipopts = 'ipopts: ' + args.ipopts.lower()
             list_of_vars_in_options.insert(0, ipopts)
             break
         else:
-            logger.error(generated_rule_sid + 'Invalid ipopts value entered: ' + args.iptops)
+            logger.error(generated_rule_sid + 'Invalid ipopts value entered: ' + args.ipopts)
             break
     break
 while True: 
