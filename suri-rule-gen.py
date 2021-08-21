@@ -34,8 +34,7 @@ rev='rev:001'
 sid='sid:000001'
 
 
-list_of_vars_in_options = [rev,sid]
-
+list_of_vars_in_options = [sid, rev]
 
 #logging configuration 
 logger = logging.getLogger('suri-rule-gen.py')
@@ -119,17 +118,19 @@ args = parser.parse_args()
 
 #   Set rule sid and rev value, set first to populate log properly. 
 while True: 
-    if args.sid is not None: 
+    if args.sid is not None:
+        list_of_vars_in_options.pop(0)
         sid = 'sid:'+args.sid
-        list_of_vars_in_options[-2]=sid
+        list_of_vars_in_options.insert(-2, sid)
         break
     else: 
         logger.warning('No sid value set!!! Please ensure that no rules have duplicate sid values.')
         break
 while True: 
     if args.rev is not None:
+        list_of_vars_in_options.pop(-1)
         rev = 'rev:'+args.rev
-        list_of_vars_in_options[-1]=rev
+        list_of_vars_in_options.insert(-1, sid)
         break
     else:
         logger.warning('No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.')
