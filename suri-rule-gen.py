@@ -16,6 +16,7 @@ import os
 import argparse
 import re
 import logging
+from types import FrameType
 
 
 #output file
@@ -71,7 +72,7 @@ ipopts_options = ['rr', 'eol', 'nop', 'ts', 'sec', 'esec', 'lsrr', 'ssrr', 'sati
 # CLI arguments 
 
 
-parser =argparse.ArgumentParser()
+parser=argparse.ArgumentParser()
 parser.add_argument('--action', action="store", type=str, help="Use to set rule action - Default is alert")
 parser.add_argument('--protocol', action="store", type=str, help="Use to set protocol.")
 parser.add_argument('--sip', action="store", type=str, nargs='+', help="Use to set source IP for rule. Format examples: | 10.0.0.0 | 10.0.0.0/8 | !10.0.0.0 | [10.0.0.0, 192.168.0.0/24, !172.16.0.0]")
@@ -344,6 +345,7 @@ while True:
     if args.geoip is not None:
         geoip = args.geoip.lower()
         list_of_vars_in_options.insert(0, geoip)
+        logger.info(generated_rule_sid + ' Option value set: ' + geoip )
         break
     else:
         break
@@ -351,6 +353,7 @@ while True:
     if args.fragbits is not None:
         fragbits = args.fragbits.lower()
         list_of_vars_in_options.insert(0, fragbits)
+        logger.info(generated_rule_sid + ' Option value set: ' + fragbits)
         break
     else:
         break
@@ -358,6 +361,7 @@ while True:
     if args.fragoffset is not None:
         fragoffset = args.fragoffset.lower()
         list_of_vars_in_options.insert(0, fragoffset)
+        logger.info(generated_rule_sid + ' Option value set: ' + fragoffset)
         break
     else:
         break
@@ -365,48 +369,60 @@ while True:
     if args.tos is not None: 
         tos = args.tos
         list_of_vars_in_options.insert(0, tos)
+        logger.info(generated_rule_sid + ' Option value set: ' + tos )
     else:
         break
 while True:
     if args.seq is not None:
         seq = args.seq
         list_of_vars_in_options.insert(0, seq)
+        logger.info(generated_rule_sid + ' Option value set: ' + seq )
     else:
         break
 while True:
     if args.pcre is not None: 
-        pcre = " ".join(args.pcre)
+        pcre = 'pcre:"' + " ".join(args.pcre) + '"'
         list_of_vars_in_options.insert(0,pcre)
+        logger.info(generated_rule_sid + ' Option value set: ' + pcre)
         break
     else:
         break
 while True: 
     if args.tlssubject is not None:
         tlssubject = ""
+        list_of_vars_in_options.insert(0, tlssubject)
+        logger.info(generated_rule_sid + ' Option value set: ' + tlssubject )
         break
     else:
         break
 while True:
     if args.tlsissuer is not None:
         tlsissuer = ""
+        list_of_vars_in_options.insert(0, tlsissuer)
+        logger.info(generated_rule_sid + ' Option value set: ' + tlsissuer )
         break
     else:
         break
 while True:
     if args.tlsserial is not None:
         tlsserial = ""
+        list_of_vars_in_options.insert(0, tlsserial)
+        logger.info(generated_rule_sid + ' Option value set: ' + tlsserial )
         break
     else:
         break
 while True:
     if args.tlsfingerprint is not None:
-        tlsfinerprint = ""
+        tlsfingerprint = ""
+        list_of_vars_in_options.insert(0, tlsfingerprint)
+        logger.info(generated_rule_sid + ' Option value set: ' + tlsfingerprint )
         break
     else:
         break
 while True:
     if args.sshproto is not None:
         sshproto = 'ssh.protoversion:' + args.sshproto
+        list_of_vars_in_options.insert(0, sshproto)
         logger.info(generated_rule_sid + ' Option value set: ' + sshproto)
         break
     else:
@@ -414,6 +430,7 @@ while True:
 while True:
     if args.sshsoftware is not None:
         sshsoftware = 'ssh.software; content"' + args.sshsoftware +'"'
+        list_of_vars_in_options.insert(0, sshsoftware)
         logger.info(generated_rule_sid + ' Option value set: ' + sshsoftware)
         break
     else:
@@ -421,6 +438,7 @@ while True:
 while True:
     if args.hassh is not None:
         hassh = 'ssh.hassh; content:"' + args.hassh + '"'
+        list_of_vars_in_options.insert(0, hassh)
         logger.info(generated_rule_sid + ' Option value set: ' + hassh)
         break
     else:
@@ -428,6 +446,7 @@ while True:
 while True:
     if args.hasshstring is not None:
         hasshstring = 'ssh.hassh.string; content:"' + args.hasshstring + '"'
+        list_of_vars_in_options.insert(0, hasshstring)
         logger.info(generated_rule_sid + ' Option value set: ' + hasshstring)
         break
     else:
@@ -435,6 +454,7 @@ while True:
 while True:
     if args.hasshserver is not None:
         hasshserver = 'ssh.hassh.server; content:"' + args.hasshserver +'"'
+        list_of_vars_in_options.insert(0, hasshserver)
         logger.info(generated_rule_sid + ' Option value set: ' + hasshserver)
         break
     else:
@@ -442,6 +462,7 @@ while True:
 while True: 
     if args.hasshserverstring is not None:
         hasshserverstring = 'ssh.hassh.server.string; content:"' + args.hasshserverstring + '"'
+        list_of_vars_in_options.insert(0, hasshserverstring)
         logger.info(generated_rule_sid+ ' Option set: ' + hasshserverstring)
         break
     else:
