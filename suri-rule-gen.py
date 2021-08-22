@@ -46,7 +46,7 @@ fh.setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
 ch.setLevel(logging.ERROR)
 # create formatter and add it to the handlers
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:S')
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 ch.setFormatter(formatter)
 fh.setFormatter(formatter)
 # add the handlers to logger
@@ -135,7 +135,7 @@ while True:
     else:
         logger.warning('No rev value set!!! Please ensure that there are no duplicate rev values with a common sid value.')
         break
-generated_rule_sid = 'Generated rule sid ' + sid + ' ' + rev + ' - '
+generated_rule_sid = 'Generated rule ' + sid + ' ' + rev + ' - '
 #While loops to test the presence of CLI arguements
 while True: 
     if args.action is not None: 
@@ -406,37 +406,43 @@ while True:
         break
 while True:
     if args.sshproto is not None:
-        sshproto = ""
+        sshproto = 'ssh.protoversion:' + args.sshproto
+        logger.info(generated_rule_sid + ' Option value set: ' + sshproto)
         break
     else:
         break
 while True:
     if args.sshsoftware is not None:
-        sshsoftware = ""
+        sshsoftware = 'ssh.software; content"' + args.sshsoftware +'"'
+        logger.info(generated_rule_sid + ' Option value set: ' + sshsoftware)
         break
     else:
         break
 while True:
     if args.hassh is not None:
-        hassh = ""
+        hassh = 'ssh.hassh; content:"' + args.hassh + '"'
+        logger.info(generated_rule_sid + ' Option value set: ' + hassh)
         break
     else:
         break
 while True:
     if args.hasshstring is not None:
-        hasshstring = ""
+        hasshstring = 'ssh.hassh.string; content:"' + args.hasshstring + '"'
+        logger.info(generated_rule_sid + ' Option value set: ' + hasshstring)
         break
     else:
         break
 while True:
     if args.hasshserver is not None:
-        hasshserver = ""
+        hasshserver = 'ssh.hassh.server; content:"' + args.hasshserver +'"'
+        logger.info(generated_rule_sid + ' Option value set: ' + hasshserver)
         break
     else:
         break
 while True: 
     if args.hasshserverstring is not None:
-        hasshserverstring = ''
+        hasshserverstring = 'ssh.hassh.server.string; content:"' + args.hasshserverstring + '"'
+        logger.info(generated_rule_sid+ ' Option set: ' + hasshserverstring)
         break
     else:
         break
