@@ -215,7 +215,6 @@ while True:
             logger.info(generated_rule_sid + 'dest ip set to: ' + dest_ip)
             break
         else:
-            print('The destination IP was not in the correct format.')
             logging.error(generated_rule_sid + 'destination IP set to invalid value: '  + test_dest_ip)
             break
     else: 
@@ -231,7 +230,6 @@ while True:
             break
         else:
             logger.error('Generated rule sid:' + sid + 'dest port entered incorrectly: ' + dest_port)
-            print('Destionation port entered incorrectly.')
         break
     else:
         #print('no dest port specified')
@@ -352,31 +350,97 @@ while True:
 while True:
     if args.fragbits is not None:
         fragbits = args.fragbits.lower()
+        list_of_vars_in_options.insert(0, fragbits)
         break
     else:
         break
 while True:
     if args.fragoffset is not None:
         fragoffset = args.fragoffset.lower()
+        list_of_vars_in_options.insert(0, fragoffset)
         break
     else:
         break
 while True:
     if args.tos is not None: 
         tos = args.tos
+        list_of_vars_in_options.insert(0, tos)
     else:
         break
 while True:
     if args.seq is not None:
         seq = args.seq
+        list_of_vars_in_options.insert(0, seq)
     else:
         break
 while True:
     if args.pcre is not None: 
         pcre = " ".join(args.pcre)
+        list_of_vars_in_options.insert(0,pcre)
         break
     else:
         break
+while True: 
+    if args.tlssubject is not None:
+        tlssubject = ""
+        break
+    else:
+        break
+while True:
+    if args.tlsissuer is not None:
+        tlsissuer = ""
+        break
+    else:
+        break
+while True:
+    if args.tlsserial is not None:
+        tlsserial = ""
+        break
+    else:
+        break
+while True:
+    if args.tlsfingerprint is not None:
+        tlsfinerprint = ""
+        break
+    else:
+        break
+while True:
+    if args.sshproto is not None:
+        sshproto = ""
+        break
+    else:
+        break
+while True:
+    if args.sshsoftware is not None:
+        sshsoftware = ""
+        break
+    else:
+        break
+while True:
+    if args.hassh is not None:
+        hassh = ""
+        break
+    else:
+        break
+while True:
+    if args.hasshstring is not None:
+        hasshstring = ""
+        break
+    else:
+        break
+while True:
+    if args.hasshserver is not None:
+        hasshserver = ""
+        break
+    else:
+        break
+while True: 
+    if args.hasshserverstring is not None:
+        hasshserverstring = ''
+        break
+    else:
+        break
+
 #Test if a different outfile should be used
 while True:
     if args.outfile is not None:
