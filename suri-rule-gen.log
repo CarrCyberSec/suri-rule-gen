@@ -2713,3 +2713,4 @@
 2021-08-22 17:37:42 - suri-rule-gen.py - INFO - Generated rule sid:0008 rev:001 - no dest port specified specified.
 2021-08-22 17:37:42 - suri-rule-gen.py - INFO - Generated rule sid:0008 rev:001 - Message value set: test of sshproto
 2021-08-22 17:37:42 - suri-rule-gen.py - INFO - Generated rule sid:0008 rev:001 -  Option value set: ssh.protoversion:didthiswork
+2021-08-22 19:04:46 - suri-rule-gen.py - INFO - **********NEW RULE BEING GENERATED**************
