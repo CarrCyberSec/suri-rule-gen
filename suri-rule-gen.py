@@ -325,6 +325,7 @@ while True:
         if args.target == 'src_ip' or 'dest_ip':
             target = 'target:' + args.target.lower()
             list_of_vars_in_options.insert(0, target)
+            logger.info(generated_rule_sid + ' Option value set: ' + target)
             break
         else:
             logger.error(generated_rule_sid + 'Invalid target value entered:' + args.target)
@@ -336,6 +337,7 @@ while True:
         if args.ipopts.lower in ipopts_options:
             ipopts = 'ipopts: ' + args.ipopts.lower()
             list_of_vars_in_options.insert(0, ipopts)
+            logger.info(generated_rule_sid + ' Option value set: ' + ipopts)
             break
         else:
             logger.error(generated_rule_sid + 'Invalid ipopts value entered: ' + args.ipopts)
@@ -343,7 +345,7 @@ while True:
     break
 while True: 
     if args.geoip is not None:
-        geoip = args.geoip.lower()
+        geoip = 'geoip: ' + args.geoip 
         list_of_vars_in_options.insert(0, geoip)
         logger.info(generated_rule_sid + ' Option value set: ' + geoip )
         break
@@ -351,7 +353,7 @@ while True:
         break
 while True:
     if args.fragbits is not None:
-        fragbits = args.fragbits.lower()
+        fragbits = 'fragbits:' + args.fragbits
         list_of_vars_in_options.insert(0, fragbits)
         logger.info(generated_rule_sid + ' Option value set: ' + fragbits)
         break
@@ -359,7 +361,7 @@ while True:
         break
 while True:
     if args.fragoffset is not None:
-        fragoffset = args.fragoffset.lower()
+        fragoffset = 'fragoffset:' + args.fragoffset
         list_of_vars_in_options.insert(0, fragoffset)
         logger.info(generated_rule_sid + ' Option value set: ' + fragoffset)
         break
@@ -367,14 +369,14 @@ while True:
         break
 while True:
     if args.tos is not None: 
-        tos = args.tos
+        tos = 'tos:' + args.tos
         list_of_vars_in_options.insert(0, tos)
         logger.info(generated_rule_sid + ' Option value set: ' + tos )
     else:
         break
 while True:
     if args.seq is not None:
-        seq = args.seq
+        seq = 'seq:' + args.seq
         list_of_vars_in_options.insert(0, seq)
         logger.info(generated_rule_sid + ' Option value set: ' + seq )
     else:
@@ -389,7 +391,7 @@ while True:
         break
 while True: 
     if args.tlssubject is not None:
-        tlssubject = ""
+        tlssubject = 'tls.cert_subject; content:"' + args.tlssubject + '"'
         list_of_vars_in_options.insert(0, tlssubject)
         logger.info(generated_rule_sid + ' Option value set: ' + tlssubject )
         break
@@ -397,7 +399,7 @@ while True:
         break
 while True:
     if args.tlsissuer is not None:
-        tlsissuer = ""
+        tlsissuer = 'tls.cert_isser; content:"' + args.tlsissuer + '"'
         list_of_vars_in_options.insert(0, tlsissuer)
         logger.info(generated_rule_sid + ' Option value set: ' + tlsissuer )
         break
@@ -405,7 +407,7 @@ while True:
         break
 while True:
     if args.tlsserial is not None:
-        tlsserial = ""
+        tlsserial = 'tls.cert_serial; content:"' + args.tlsserial + '"'
         list_of_vars_in_options.insert(0, tlsserial)
         logger.info(generated_rule_sid + ' Option value set: ' + tlsserial )
         break
@@ -413,7 +415,7 @@ while True:
         break
 while True:
     if args.tlsfingerprint is not None:
-        tlsfingerprint = ""
+        tlsfingerprint = 'tls.cert_fingerprint; content:"' + args.tlsfingerprint + '"'
         list_of_vars_in_options.insert(0, tlsfingerprint)
         logger.info(generated_rule_sid + ' Option value set: ' + tlsfingerprint )
         break

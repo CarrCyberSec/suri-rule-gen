@@ -11,8 +11,12 @@ python3 suri-rule-gen.py --message this is the sixth rule test --ttl 255 --sid 0
 python3 suri-rule-gen.py --message this is the seventh rule test --classtype trojan-activity --sid 0007 --rev 123
 python3 suri-rule-gen.py --message test of sshproto --sshproto didthiswork --sid 0008 --rev 001
 
-
-printf "\n printing rule file \n"
+echo "*****printing rule file*****"
+echo "*"
+echo "*"
+echo "*" 
 cat suri-rule-gen.rules  
-printf "\n printing log file \n"
+echo "*"
+echo "*"
+echo "*****printing log file*****"
 tail -20 suri-rule-gen.log
