@@ -10,6 +10,7 @@ python3 suri-rule-gen.py --sip 172.16.0.0/16 --destport 433 --message this is th
 python3 suri-rule-gen.py --message this is the sixth rule test --ttl 255 --sid 0006
 python3 suri-rule-gen.py --message this is the seventh rule test --classtype trojan-activity --sid 0007 --rev 123
 python3 suri-rule-gen.py --message test of sshproto --sshproto didthiswork --sid 0008 --rev 001
+python3 suri-rule-gen.py --message EXTERNAL_NET  test --dip \$EXTERNAL_NET  --sip 53
 
 echo "*****printing rule file*****"
 echo "*"
@@ -19,4 +20,4 @@ cat suri-rule-gen.rules
 echo "*"
 echo "*"
 echo "*****printing log file*****"
-tail -20 suri-rule-gen.log
+tail -30 suri-rule-gen.log
