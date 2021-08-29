@@ -206,7 +206,7 @@ while True:
             logger.error(generated_rule_sid + ' invalid rule direction ' + args.direction )
             break
     else: 
-        logger.info(generated_rule_sid + 'no rule driection specified.')
+        logger.info(generated_rule_sid + 'no rule direction specified.')
         break
 while True: 
     if args.dip is not None: 
